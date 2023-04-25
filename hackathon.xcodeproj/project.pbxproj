@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3FB7FF1029F876D900D76E5C /* SampleData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB7FF0F29F876D900D76E5C /* SampleData.swift */; };
+		3FB7FF1229F878A900D76E5C /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FB7FF1129F878A900D76E5C /* LoginView.swift */; };
 		FF26853B29F8708700A96871 /* hackathonApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF26853A29F8708700A96871 /* hackathonApp.swift */; };
 		FF26853D29F8708700A96871 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF26853C29F8708700A96871 /* ContentView.swift */; };
 		FF26853F29F8708800A96871 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF26853E29F8708800A96871 /* Assets.xcassets */; };
@@ -23,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		3FB7FF0F29F876D900D76E5C /* SampleData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleData.swift; sourceTree = "<group>"; };
+		3FB7FF1129F878A900D76E5C /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
 		FF26853729F8708700A96871 /* hackathon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hackathon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF26853A29F8708700A96871 /* hackathonApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hackathonApp.swift; sourceTree = "<group>"; };
 		FF26853C29F8708700A96871 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -78,6 +80,7 @@
 				FF26855229F871E700A96871 /* ChatBotView.swift */,
 				FF26855629F8720B00A96871 /* ForumView.swift */,
 				FF26855A29F8730D00A96871 /* ButtonNavBar.swift */,
+				3FB7FF1129F878A900D76E5C /* LoginView.swift */,
 			);
 			path = hackathon;
 			sourceTree = "<group>";
@@ -169,6 +172,7 @@
 				FF26853B29F8708700A96871 /* hackathonApp.swift in Sources */,
 				FF26855129F871C400A96871 /* DocumentsView.swift in Sources */,
 				FF26854D29F8716800A96871 /* HomeView.swift in Sources */,
+				3FB7FF1229F878A900D76E5C /* LoginView.swift in Sources */,
 				FF26855729F8720B00A96871 /* ForumView.swift in Sources */,
 				FF26854B29F8712D00A96871 /* OpenAIResponseHandler.swift in Sources */,
 			);

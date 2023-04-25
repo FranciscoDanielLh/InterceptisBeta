@@ -9,7 +9,7 @@ struct ContentView: View {
                 .tabItem({Image("Home")})
             DocumentsView()
                 .tabItem({Image("Docs")})
-            ChatBotView()
+            LoginView()
                 .tabItem({Image("Foro")})
         }
         

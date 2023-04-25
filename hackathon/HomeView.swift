@@ -1,19 +1,37 @@
-//
-//  HomeView.swift
-//  hackathon
-//
-//  Created by CEDAM18 on 24/04/23.
-//
 import SwiftUI
 
+
+
 struct HomeView: View {
+    
+    @State private var prompt_f:String = ""
+    let openAI = OpenAIConnector()
+    
+    private func performOpenAISearch(prompt_f:String) async {
+       await  openAI.processPrompt(prompt_f: prompt_f)
+       
+        
+    }
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        NavigationView{
+            VStack{
+                TextField("Escribe", text: $prompt_f)
+                    .onSubmit {
+                        if !prompt_f.isEmpty{
+                            Task {
+                            await performOpenAISearch(prompt_f: prompt_f)
+
+                            }
+                        }
+                    }
+            }.navigationTitle("INTERCENTIS")
+        }
     }
 }
 
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
-        HomeView()
+        ContentView()
     }
 }
