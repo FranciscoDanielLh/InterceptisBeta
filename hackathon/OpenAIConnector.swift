@@ -1,10 +1,12 @@
 import Foundation
 
+public var jsString = ""
+
 public class OpenAIConnector {
 
     let openAIURL = URL(string: "https://api.openai.com/v1/chat/completions")
     var openAIKey: String {
-        return "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"
+        return "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"
     }
     
     /// DO NOT EVER TOUCH THIS FUNCTION. EVER.
@@ -64,6 +66,7 @@ public class OpenAIConnector {
             /// I know there's an error below, but we'll fix it later on in the article, so make sure not to change anything
             let responseHandler = OpenAIResponseHandler()
 
+            jsString = jsonStr
             return responseHandler.decodeJson(jsonString: jsonStr)?.choices[0].text
             
         }

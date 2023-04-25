@@ -33,6 +33,16 @@ public var legalDocuments: [Document] = [
         name: "Ley de represión y contrabando",
         link: "https://www.google.com/url?sa=t&rct=j&q=&esrc=s&source=web&cd=&cad=rja&uact=8&ved=2ahUKEwje0-z8s8X-AhX6IEQIHbvaAUEQFnoECBIQAw&url=https%3A%2F%2Fwww.boe.es%2Fbuscar%2Fact.php%3Fid%3DBOE-A-1995-26836%23%3A~%3Atext%3DPenalidad.-%2C1.%2C%252C%2520mercanc%25C3%25ADas%252C%2520g%25C3%25A9neros%2520o%2520efectos.&usg=AOvVaw1zWehmDpCdI8gFwThcrotE",
         type: "link"
-    )
+    ),
+    Document(
+        name: "Codigo Civil para la Ciudad de México",
+        link: "https://www.congresocdmx.gob.mx/media/documentos/ad63a5bd2aef33e50ef1ed68d82450cf368578c0.pdf",
+        type: "pdf"
+    ),
+    Document(
+        name: "Declaración Universal de los Derechos Humanos",
+        link: "https://www.un.org/es/documents/udhr/UDHR_booklet_SP_web.pdf",
+        type: "pdf"
+    ),
 ]
 
