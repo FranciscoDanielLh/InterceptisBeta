@@ -4,21 +4,25 @@ struct ContentView: View {
     @State private var selection: Tab = .inicio
     
     var body: some View {
-        HStack(spacing: 10) {
-            Text("Intercpetis")
-                .foregroundColor(.white)
-        }
-        .padding()
-        .background(Color.blue)
-        Spacer(minLength: 2)
-        
-        TabView {
-            HomeView()
-                .tabItem({Image("Home")})
-            DocumentsView()
-                .tabItem({Image("Docs")})
-            LoginView()
-                .tabItem({Image("Foro")})
+        VStack {
+            HStack(alignment: .top) {
+                Text("Interceptis")
+                    .font(.system(size: 40))
+                    .frame(width: 400)
+            }
+            .foregroundColor(.white)
+            .padding()
+            .background(Color.blue)
+            Spacer()
+            
+            TabView {
+                HomeView()
+                    .tabItem({Image("Home")})
+                DocumentsView()
+                    .tabItem({Image("Docs")})
+                LoginView()
+                    .tabItem({Image("Foro")})
+            }
         }
         
     }

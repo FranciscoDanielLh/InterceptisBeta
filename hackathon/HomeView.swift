@@ -25,7 +25,8 @@ struct HomeView: View {
                             }
                         }
                     }
-            }.navigationTitle("INTERCENTIS")
+                    .padding()
+            }.navigationTitle("INTERCEPTIS")
         }
     }
 }
