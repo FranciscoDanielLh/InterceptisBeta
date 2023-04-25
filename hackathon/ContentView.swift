@@ -4,6 +4,14 @@ struct ContentView: View {
     @State private var selection: Tab = .inicio
     
     var body: some View {
+        HStack(spacing: 10) {
+            Text("Intercpetis")
+                .foregroundColor(.white)
+        }
+        .padding()
+        .background(Color.blue)
+        Spacer(minLength: 2)
+        
         TabView {
             HomeView()
                 .tabItem({Image("Home")})
