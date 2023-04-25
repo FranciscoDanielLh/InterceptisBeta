@@ -11,6 +11,13 @@
 		FF26853D29F8708700A96871 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF26853C29F8708700A96871 /* ContentView.swift */; };
 		FF26853F29F8708800A96871 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF26853E29F8708800A96871 /* Assets.xcassets */; };
 		FF26854229F8708800A96871 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF26854129F8708800A96871 /* Preview Assets.xcassets */; };
+		FF26854929F8710100A96871 /* OpenAIConnector.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF26854829F8710100A96871 /* OpenAIConnector.swift */; };
+		FF26854B29F8712D00A96871 /* OpenAIResponseHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF26854A29F8712D00A96871 /* OpenAIResponseHandler.swift */; };
+		FF26854D29F8716800A96871 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF26854C29F8716800A96871 /* HomeView.swift */; };
+		FF26855129F871C400A96871 /* DocumentsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF26855029F871C400A96871 /* DocumentsView.swift */; };
+		FF26855329F871E700A96871 /* ChatBotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF26855229F871E700A96871 /* ChatBotView.swift */; };
+		FF26855729F8720B00A96871 /* ForumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF26855629F8720B00A96871 /* ForumView.swift */; };
+		FF26855B29F8730D00A96871 /* ButtonNavBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF26855A29F8730D00A96871 /* ButtonNavBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +26,13 @@
 		FF26853C29F8708700A96871 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FF26853E29F8708800A96871 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FF26854129F8708800A96871 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FF26854829F8710100A96871 /* OpenAIConnector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIConnector.swift; sourceTree = "<group>"; };
+		FF26854A29F8712D00A96871 /* OpenAIResponseHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIResponseHandler.swift; sourceTree = "<group>"; };
+		FF26854C29F8716800A96871 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		FF26855029F871C400A96871 /* DocumentsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentsView.swift; sourceTree = "<group>"; };
+		FF26855229F871E700A96871 /* ChatBotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatBotView.swift; sourceTree = "<group>"; };
+		FF26855629F8720B00A96871 /* ForumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ForumView.swift; sourceTree = "<group>"; };
+		FF26855A29F8730D00A96871 /* ButtonNavBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonNavBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +69,13 @@
 				FF26853C29F8708700A96871 /* ContentView.swift */,
 				FF26853E29F8708800A96871 /* Assets.xcassets */,
 				FF26854029F8708800A96871 /* Preview Content */,
+				FF26854829F8710100A96871 /* OpenAIConnector.swift */,
+				FF26854A29F8712D00A96871 /* OpenAIResponseHandler.swift */,
+				FF26854C29F8716800A96871 /* HomeView.swift */,
+				FF26855029F871C400A96871 /* DocumentsView.swift */,
+				FF26855229F871E700A96871 /* ChatBotView.swift */,
+				FF26855629F8720B00A96871 /* ForumView.swift */,
+				FF26855A29F8730D00A96871 /* ButtonNavBar.swift */,
 			);
 			path = hackathon;
 			sourceTree = "<group>";
@@ -137,8 +158,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF26855B29F8730D00A96871 /* ButtonNavBar.swift in Sources */,
+				FF26854929F8710100A96871 /* OpenAIConnector.swift in Sources */,
+				FF26855329F871E700A96871 /* ChatBotView.swift in Sources */,
 				FF26853D29F8708700A96871 /* ContentView.swift in Sources */,
 				FF26853B29F8708700A96871 /* hackathonApp.swift in Sources */,
+				FF26855129F871C400A96871 /* DocumentsView.swift in Sources */,
+				FF26854D29F8716800A96871 /* HomeView.swift in Sources */,
+				FF26855729F8720B00A96871 /* ForumView.swift in Sources */,
+				FF26854B29F8712D00A96871 /* OpenAIResponseHandler.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
